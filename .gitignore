@@ -1,0 +1,10 @@
+.env
+.env~
+.env.example~
+vendor/
+var/
+nbproject/
+composer.lock
+composer.lock~
+composer.json~
+*~

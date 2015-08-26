@@ -1,0 +1,24 @@
+{
+    "name": "kibriaali/minisf",
+    "description": "A symfony project with less vendors and a different file structure to keep it small.",
+    "authors": [
+        {
+            "name": "Kib Ali",
+            "email": "kibria4@live.co.uk"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "symfony/symfony": "^2.7",
+	"sensio/framework-extra-bundle": "^3.0",
+        "vlucas/phpdotenv": "^2.1@dev",
+        "symfony/monolog-bundle": "^2.7@dev",
+        "doctrine/orm": "*",
+        "doctrine/doctrine-bundle": "^1.6@dev"
+    },
+    "autoload": {
+        "psr-4": {
+	    "AppBundle\\": "src/AppBundle/"
+	}
+    }
+}
